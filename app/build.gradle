@@ -20,7 +20,7 @@ apply plugin: 'com.android.application'
 
 def twaManifest = [
     applicationId: 'com.ftnc.healinglab',
-    hostName: 'ftnc.ngrok.io', // The domain being opened in the TWA.
+    hostName: 'www.healinglab.co.kr', // The domain being opened in the TWA.
     launchUrl: '/oauth', // The start path for the TWA. Must be relative to the domain.
     name: '힐링랩', // The name shown on the Android Launcher.
     themeColor: '#18d4c6', // The color used for the status bar.
