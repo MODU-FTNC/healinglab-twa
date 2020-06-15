@@ -33,8 +33,8 @@ def twaManifest = [
     // - url: Absolute path of the URL to launch the app with (e.g '/create').
     // - icon: Name of the resource in the drawable folder to use as an icon.
     shortcuts: [
-        // Insert shortcuts here, for example:
-        // [name: 'Open SVG', short_name: 'Open', url: '/open', icon: 'splash']
+        [name: '상담 받아보기', short_name: '상담', url: '/counsel', icon: 'ic_baseline_web'],
+        [name: '강좌 신청하기', short_name: '강좌', url: '/lecture', icon: 'ic_baseline_school']
     ],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
     splashScreenFadeOutDuration: 300
